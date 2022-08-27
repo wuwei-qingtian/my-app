@@ -21,7 +21,7 @@ export default function Details(props) {
       render: (text, record, index) => `${index + 1}`,
     },
     {
-      title: "音乐标题123123123",
+      title: "音乐标题1231231123",
       dataIndex: "title",
       render: (text, record, index) => record.name,
     },
