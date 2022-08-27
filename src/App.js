@@ -8,7 +8,7 @@ import "./App.css";
 const App = () => {
   const dispatch = useDispatch();
   useEffect(() => {
-    console.log('awewae');
+    console.log('awewa12321e');
     window.addEventListener("resize", () => {
       dispatch(actions.move(document.documentElement.clientWidth));
     });
